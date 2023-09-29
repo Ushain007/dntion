@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Funding</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    <nav class="bg-white p-4 flex justify-between items-center">
+        <div>
+            <img src="Resources/Logo.png" alt="Website Logo">
+        </div>
+        <ul class="flex space-x-4">
+            <li><a href="#" class="text-red-500 underline">Home</a></li>
+            <li><a href="#">Donation</a></li>
+            <li><a href="#">Statistics</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+<section class="bg-cover bg-center relative h-80" style="background-image: url('Resources/Rectangle\ 4287-1.png');">
+    <div class="bg-black opacity-50 absolute inset-0"></div>
+    <div class="container mx-auto h-full flex items-center justify-center flex-col text-center text-white">
+        <h1 class="text-3xl font-semibold mb-4">I Grow By Helping People In Need</h1>
+        <div class="flex items-center justify-center w-full">
+            <input type="text" id="categoryInput" placeholder="Search by category" class="rounded-l-md py-2 px-4 focus:outline-none w-2/3">
+            <button id="searchButton" class="bg-blue-500 text-white rounded-r-md px-4 py-2">Search</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="container mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div class="card card-compact bg-green-200 shadow-xl" data-category="food">
+        <a href="#">
+            <figure class="mb-2"><img src="Resources/Food.png" alt="Food Donation" /></figure>
+            <div class="card-body p-4">
+                <h2 class="card-title text-green-800">Food</h2>
+                <p class="text-green-700">Better Food for Everyone</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card card-compact bg-blue-200 shadow-xl" data-category="clothing">
+        <a href="#">
+            <figure class="mb-2"><img src="Resources/Clothing.png" alt="Clothing Donation" /></figure>
+            <div class="card-body p-4">
+                <h2 class="card-title text-blue-800">Clothing</h2>
+                <p class="text-blue-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card card-compact bg-red-200 shadow-xl" data-category="health">
+        <a href="#">
+            <figure class="mb-2"><img src="Resources/Health.png" alt="Health Donation" /></figure>
+            <div class="card-body p-4">
+                <h2 class="card-title text-red-800">Health</h2>
+                <p class="text-red-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card card-compact bg-orange-200 shadow-xl" data-category="education">
+        <a href="#">
+            <figure class="mb-2"><img src="Resources/Education.png" alt="Education Donation" /></figure>
+            <div class="card-body p-4">
+                <h2 class="card-title text-orange-800">Education</h2>
+                <p class="text-orange-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </a>
+    </div>
+
+<div class="card card-compact bg-blue-200 shadow-xl" data-category="clothing">
+    <a href="#">
+        <figure class="mb-2"><img src="Resources/Clothing.png" alt="Clothing Donation" /></figure>
+        <div class="card-body p-4">
+            <h2 class="card-title text-blue-800">Clothing</h2>
+            <p class="text-blue-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </a>
+</div>
+
+<div class="card card-compact bg-orange-200 shadow-xl" data-category="education">
+    <a href="#">
+        <figure class="mb-2"><img src="Resources/Education.png" alt="Education Donation" /></figure>
+        <div class="card-body p-4">
+            <h2 class="card-title text-orange-800">Education</h2>
+            <p class="text-orange-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </a>
+</div>
+
+<div class="card card-compact bg-green-200 shadow-xl" data-category="food">
+    <a href="#">
+        <figure class="mb-2"><img src="Resources/Food.png" alt="Food Donation" /></figure>
+        <div class="card-body p-4">
+            <h2 class="card-title text-green-800">Food</h2>
+            <p class="text-green-700">Better Food for Everyone</p>
+        </div>
+    </a>
+</div>
+
+<div class="card card-compact bg-red-200 shadow-xl" data-category="health">
+    <a href="#">
+        <figure class="mb-2"><img src="Resources/Health.png" alt="Health Donation" /></figure>
+        <div class="card-body p-4">
+            <h2 class="card-title text-red-800">Health</h2>
+            <p class="text-red-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </a>
+</div>
+
+<div class="card card-compact bg-green-200 shadow-xl" data-category="food">
+    <a href="#">
+        <figure class="mb-2"><img src="Resources/Food.png" alt="Food Donation" /></figure>
+        <div class="card-body p-4">
+            <h2 class="card-title text-green-800">Food</h2>
+            <p class="text-green-700">Better Food for Everyone</p>
+        </div>
+    </a>
+</div>
+
+<div class="card card-compact bg-blue-200 shadow-xl" data-category="clothing">
+    <a href="#">
+        <figure class="mb-2"><img src="Resources/Clothing.png" alt="Clothing Donation" /></figure>
+        <div class="card-body p-4">
+            <h2 class="card-title text-blue-800">Clothing</h2>
+            <p class="text-blue-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </a>
+</div>
+
+<div class="card card-compact bg-orange-200 shadow-xl" data-category="education">
+    <a href="#">
+        <figure class="mb-2"><img src="Resources/Education.png" alt="Education Donation" /></figure>
+        <div class="card-body p-4">
+            <h2 class="card-title text-orange-800">Education</h2>
+            <p class="text-orange-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </a>
+</div>
+
+<div class="card card-compact bg-red-200 shadow-xl" data-category="health">
+    <a href="#">
+        <figure class="mb-2"><img src="Resources/Health.png" alt="Health Donation" /></figure>
+        <div class="card-body p-4">
+            <h2 class="card-title text-red-800">Health</h2>
+            <p class="text-red-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </a>
+</div>
+
+
+</section>
+
+
+
+<script>
+    const searchButton = document.getElementById("searchButton");
+    const categoryInput = document.getElementById("categoryInput");
+    const cards = document.querySelectorAll(".card");
+
+    searchButton.addEventListener("click", () => {
+        const selectedCategory = categoryInput.value.toLowerCase();
+
+        cards.forEach((card) => {
+            const cardCategory = card.getAttribute("data-category").toLowerCase();
+
+            if (selectedCategory === '' || cardCategory.includes(selectedCategory)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
